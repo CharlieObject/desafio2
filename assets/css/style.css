@@ -1,0 +1,111 @@
+body{
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+  height: 20em;
+  background-image: url("../imgs/sloganautito.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3em;
+}
+
+.header .main-text{
+  padding: 3em;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.header h1{
+  font-weight: 400;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+.main td{
+  width: 50%;
+  padding: 2em;
+}
+
+.main img{
+  max-width: 100%;
+  border: solid 1px #ddd;
+}
+
+.footer{
+  height: 3em;
+  line-height: 3em;
+  background-color: rgb(185, 112, 41);
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.caja {
+  position: relative;
+  display: inline-block;
+}
+
+.texto1{
+  position: absolute;
+  top: 8px;
+  left: 10%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 80px;
+  color:black;
+}
+
+.texto2{
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  font-size: 16px;
+  color: white;
+}
+
+.texto-borde {
+  -webkit-text-stroke: 4px white;
+  color: black; 
+}
+
+.footerPagina {
+  border: red;
+  background-color: black;
+  color: white
+}
+
+.imagenVenta {
+  width: 470px;
+ height: 350px; 
+padding: 10px; 
+margin: 80px; 
+border: 2px solid black;
+}
+
+.textoDeVenta{
+  display: inline-block;
+  vertical-align: top;
+}
